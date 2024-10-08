@@ -41,9 +41,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/splashLogo"
-        android:textSize="60sp"
+        android:textSize="80sp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/pandaspots"
-
+        android:textColor="@color/black"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
