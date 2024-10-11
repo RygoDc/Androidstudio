@@ -7,6 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".SplashScreen">
 
+
+    <ImageView
+        android:id="@+id/splashGlideBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
     <View
         android:id="@+id/splashGradient"
         android:layout_width="match_parent"
@@ -14,6 +21,7 @@
         android:background="@drawable/gradient"
         android:alpha="0.6"
         />
+
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/splashGlH1"
@@ -44,6 +52,6 @@
         android:textSize="80sp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/pandaspots"
-        android:textColor="@color/black"
+        android:textColor="@color/verdeHoja"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
