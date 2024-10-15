@@ -114,7 +114,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¿Aún no estas registrado?"
+        android:text="¿Todavía no estás registrado?"
         app:layout_constraintTop_toBottomOf="@+id/LoginButtonTIL"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
